@@ -111,7 +111,6 @@ toml==0.10.2
 tornado==6.4
 traitlets==5.14.1
 Twisted==22.10.0
-twisted-iocpsupport==1.0.4
 typing_extensions==4.12.2
 tzdata==2024.1
 urllib3==2.1.0
