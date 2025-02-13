@@ -8,6 +8,7 @@ model_path = r'C:\\Users\\asus\\OneDrive\\Desktop\\ML(DEEPFAKE)\\deepfake_detect
 model = load_model(model_path)
 
 def preprocess_image(img):
+    img = img.resize((224, 224))
     
 
 
