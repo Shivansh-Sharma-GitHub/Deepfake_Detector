@@ -9,6 +9,7 @@ model = load_model(model_path)
 
 def preprocess_image(img):
     img = img.resize((224, 224))
+    img_array = image.img_to_array(img)
     
 
 
