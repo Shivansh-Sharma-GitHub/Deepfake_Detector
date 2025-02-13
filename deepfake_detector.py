@@ -7,7 +7,8 @@ import numpy as np
 model_path = r'C:\\Users\\asus\\OneDrive\\Desktop\\ML(DEEPFAKE)\\deepfake_detector_model_improved_with_weights.h5'
 model = load_model(model_path)
 
-
+def preprocess_image(img):
+    
 
 
 st.title("Deepfake Detection")
